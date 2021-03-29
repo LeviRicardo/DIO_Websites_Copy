@@ -1,0 +1,131 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Base*/
+
+body {
+    font-family: 'Arial';
+    color: white;
+    background: url('../imagens/capa.jpg');
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--preta);
+}
+
+main {
+    margin-bottom: 70px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+/*    justify-content: space-between;*/
+    margin-top: 20px;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial";
+    font-size: 40px;
+    margin-left: 35px;
+    margin-right: 50px;
+    font-size: 33px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*Capa*/
+
+.capa {
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+
+.capa .container {
+    margin-left: 40px;
+
+}
+
+.capa .container .descricao {
+    margin-top: 20px;
+    max-width: 40%;
+}
+
+.capa .container .descricao_top {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+main .capa .container button{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.botao1 {
+    background-color: white;
+    color: var(--preta);
+    margin-right: 10px;
+}
+
+.botao2 {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.botao1:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.botao2:hover {
+    background-color: rgba(70,70,70,0.7);
+}
+
+header .container button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.minha-lista {
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-left: 35px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.carrossel-filmes .nome-carrossel {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width:500px){
+    header .container {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .capa .container .descricao {
+        max-width: 90%;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    header nav a {
+        font-size: 9px;
+    }
+
+    .capa {
+        font-size: 10px;
+    }
+
+    .capa .container {
+        margin-left: 17px;
+    }
+
+    .capa .container .descricao_top {
+        font-size: 12px;
+    }
+
+    main{
+        margin-bottom: 35px;
+    }
+
+    main .capa .container button{
+        font-size: 10px;
+    }
+
+    .carrossel-filmes{
+        font-size: 15px;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+} 
