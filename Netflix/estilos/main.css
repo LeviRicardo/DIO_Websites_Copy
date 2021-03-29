@@ -129,3 +129,7 @@ header .container button {
 .carrossel-filmes .nome-carrossel {
     margin-bottom: 10px;
 }
+
+.item {
+    transition: 0.3s ease all;
+}

@@ -14,3 +14,15 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function thumbs(){
+    document.getElementById("like").className = "far fa-hand-spock"
+}
+
+function normal(elemento){
+    elemento.src = (elemento.id.split("|"))[0]
+}
+
+function hover(elemento){
+    elemento.src = (elemento.id.split("|"))[1]
+}
