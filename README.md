@@ -1,3 +1,3 @@
 # DIO_Websites_Copy
 
-DIO project to recreate Instagram's and Netflix's home screen in **Javascript**
+Projetos da DIO de refazer as páginas inicais da Netflix e do Instagram em **Javascript** + **CSS**
